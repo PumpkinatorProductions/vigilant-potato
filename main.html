@@ -1,8 +1,54 @@
 <!doctype html>
 <html>
-<head>Community Coding Project</head>
-<title>vigilant-potato</title>
-<script src = > <!--Insert JS script here--!>
-
-</script>
+  <head>
+    <!--Community Coding Project-->
+    <title>vigilant-potato</title>
+    <style>
+      body {
+        background: white;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <script src = > <!--Insert JS script here--!>
+  
+  </script>
+  <body>
+    <h1>
+      Game:
+    </h1>
+    <canvas id="mycanvas">
+      
+    </canvas>
+  </body>
+  <!--Implement Processing using
+  https://docs.google.com/document/d/1zmr-KikYdULlj_2nNQ4Sd4S2vSbzlPvf4rjPSmWWxxg/edit-->
+  
+  <!-- Easier template
+  https://www.khanacademy.org/computer-programming/processingjs-inside-webpages-template/5157014494511104-->
+  <script src="https://cdn.jsdelivr.net/processing.js/1.4.8/processing.min.js"></script> 
+ 
+  <script>
+  var sketchProc = function(processingInstance) {
+    with (processingInstance) {
+      size(400, 400); 
+      frameRate(30);
+      
+      // program code goes here
+      fill(255, 255, 0);
+      ellipse(200, 200, 200, 200);
+      noFill();
+      stroke(0, 0, 0);
+      strokeWeight(2);
+      arc(200, 200, 150, 100, 0, PI);
+      fill(0, 0, 0);
+      ellipse(250, 200, 10, 10);
+      ellipse(153, 200, 10, 10);
+    }
+  };
+  // Get the canvas that Processing-js will use
+  var canvas = document.getElementById("mycanvas"); 
+  // Pass the function sketchProc (defined in myCode.js) to Processing's constructor.
+  var processingInstance = new Processing(canvas, sketchProc); 
+  </script>
 </html>
