@@ -3,7 +3,9 @@
 import java.io.*;
 import java.util.*;
 import javax.script;
-import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.applet.*;
 
 public class Main 
 {
@@ -16,9 +18,9 @@ public class Main
     }
     public static void ShootGun
     {
-      if (MouseEvent e) //I'm not sure if this will work, haven't done much research into mouseclick functions
+      if () //I'm not sure if this will work, haven't done much research into mouseclick functions
       {
-        Main.SubtractBullets;
+        Main.SubtractBullets();
       }
     }
   }
