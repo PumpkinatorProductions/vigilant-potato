@@ -1,27 +1,40 @@
-//The main java file for our game project 
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
-import java.io.*;
-import java.util.*;
-import javax.script;
-import java.awt.*;
-import java.awt.event.*;
-import java.applet.*;
+import javax.swing.JFrame;
+import javax.swing.JTextArea;
 
-public class Main 
-{
-  public static void main (String[] args)
-  {
-    public int StartBullets = 200; //Let me know if 200 bullets is too much, too little, etc.
-    public static void SubtractBullets
-    {
-      StartBullets = StartBullets - 1;
-    }
-    public static void ShootGun
-    {
-      if () //I'm not sure if this will work, haven't done much research into mouseclick functions
-      {
-        Main.SubtractBullets();
+public class Main extends JFrame {
+  public static void main (String[] args) {
+    setSize(300, 300);
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+    final JTextArea textArea = new JTextArea();
+    textArea.setText("Click me to shoot!");
+    
+    textArea.addMouseListener(new MouseAdapter() {
+      public void mouseClicked(MouseEvent e) {
+        if (e.getButton() == MouseEvent.NOBUTTON) {
+          textArea.setText("No button clicked...");
+        } else if (e.getButton() == MouseEvent.BUTTON1) {
+          textArea.setText("Bullet Fired...");
+          int Bullets = 200;
+          Bullets--;
+        } else if (e.getButton() == MouseEvent.BUTTON2) {
+          textArea.setText("Button 2 clicked...");
+        } else if (e.getButton() == MouseEvent.BUTTON3) {
+          textArea.setText("Button 3 clicked...");
+        }
+
+        System.out.println("Number of click: " + e.getClickCount());
+        System.out.println("Click position (X, Y):  " + e.getX() + ", " + e.getY());
       }
-    }
+    });
+
+    getContentPane().add(textArea);
+  }
+
+  public static void main(String[] args) {
+    new Main().setVisible(true);
   }
 }
