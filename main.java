@@ -6,10 +6,10 @@ import javax.swing.JTextArea;
 
 public class Main extends JFrame {
   public static void main (String[] args) {
-    setSize(300, 300);
-    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    setSize(300, 300); //Size of the frame, in pixels
+    setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //Ensures that the frame collapses when you click the exit button
 
-    final JTextArea textArea = new JTextArea();
+    final JTextArea textArea = new JTextArea(); //Creates new instance of a JTextArea
     textArea.setText("Click me to shoot!");
     
     textArea.addMouseListener(new MouseAdapter() {
@@ -26,7 +26,7 @@ public class Main extends JFrame {
           textArea.setText("Button 3 clicked...");
         }
 
-        System.out.println("Number of click: " + e.getClickCount());
+        System.out.println("Number of click: " + e.getClickCount()); // Not really neccessary, but could be useful
         System.out.println("Click position (X, Y):  " + e.getX() + ", " + e.getY());
       }
     });
