@@ -344,10 +344,10 @@ _____________
 
 Our documentation does not cover the many ways to use JavaScript. Learn more at:
 
-* <u>Mozilla Developer Network: JavaScript Guide</u>
+* _Mozilla Developer Network: JavaScript Guide_
 
-* <u>W3Schools JavaScript Tutorial</u>
+* _W3Schools JavaScript Tutorial_
 
-* <u>Codecademy JS Lessons</u>
+* _Codecademy JS Lessons_
 
 This reference is based on ProcessingJS reference and is licensed under the CC BY-NC-SA 2.0 license.
