@@ -6,21 +6,21 @@ Click links to learn more.
 
 ## Table Of Contents
 ____________________
-Category       | Amount
--------------- | ------
-Shapes         | 19
-Complex Shapes | 5
-Colors         | 17
-Text           | 8
-Transforms     | 6
-Environment    | 8
-Mouse          | 11
-Keyboard       | 6
-Math           | 22
-Trignometry    | 10
-Date & Time    | 3
-Debugging      | 2
-JavaScript     | 5
+|Category       | Amount |
+|:------------- | ------:|
+|Shapes         | 19     |
+|Complex Shapes | 5      |
+|Colors         | 17     |
+|Text           | 8      |
+|Transforms     | 6      |
+|Environment    | 8      |
+|Mouse          | 11     |
+|Keyboard       | 6      |
+|Math           | 22     |
+|Trignometry    | 10     |
+|Date & Time    | 3      |
+|Debugging      | 2      |
+|JavaScript     | 5      |
 
 ## Shapes
 _________
