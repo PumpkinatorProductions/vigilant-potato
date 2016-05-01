@@ -1,9 +1,29 @@
 # ProcessingJS Documentation
+____________________________
 Copied from the bottom of
 https://www.khanacademy.org/computer-programming/new/pjs
 Click links to learn more.
 
+## Table Of Contents
+____________________
+Category       | Amount
+-------------- | ------
+Shapes         | 19
+Complex Shapes | 5
+Colors         | 17
+Text           | 8
+Transforms     | 6
+Environment    | 8
+Mouse          | 11
+Keyboard       | 6
+Math           | 22
+Trignometry    | 10
+Date & Time    | 3
+Debugging      | 2
+JavaScript     | 5
+
 ## Shapes
+_________
 **rect(x, y, w, h)**
 
 **ellipse(x, y, w, h)**
@@ -27,6 +47,7 @@ Click links to learn more.
 See also: **ellipseMode, rectMode, imageMode, strokeCap, bezierPoint, bezierTangent, curve, curvePoint, curveTangent, curveTightness**
 
 ## Complex Shapes
+_________________
 **beginShape(MODE) / endShape(MODE) / vertex(x, y)**
 
 **curveVertex(x, y)**
@@ -35,9 +56,8 @@ See also: **ellipseMode, rectMode, imageMode, strokeCap, bezierPoint, bezierTang
 
 See also: **strokeJoin, curveTightness**
 
-
-
 ## Colors
+_________
 **background(r, g, b)**
 
  	Set the background color
@@ -78,6 +98,7 @@ See also: **colorMode, red, green, blue, alpha, hue, saturation, brightness**
 
 
 ## Text
+_______
 **text(text, x, y)**
 
  	Draw some text
@@ -93,6 +114,7 @@ See also: **colorMode, red, green, blue, alpha, hue, saturation, brightness**
 See also: **textWidth, textAscent, textDescent, textLeading, textAlign**
 
 ## Transforms
+_____________
 **rotate(angle)**
 
  	Rotate shapes by an angle
@@ -108,6 +130,7 @@ See also: **textWidth, textAscent, textDescent, textLeading, textAlign**
 See also: **pushMatrix/popMatrix, resetMatrix, printMatrix**
 
 ## Environment
+______________
 **width / height**
 
 	The size of the canvas
@@ -123,6 +146,7 @@ See also: **pushMatrix/popMatrix, resetMatrix, printMatrix**
 See also: **Program.assertEqual, Program.restart, frameRate(fps), frameCount, loop / noLoop**
 
 ## Mouse
+________
 **mouseX, mouseY**
 
 	Current coordinates of the mouse
@@ -169,6 +193,7 @@ See also: **Program.assertEqual, Program.restart, frameRate(fps), frameCount, lo
 	
 
 ## Keyboard
+___________
 **key**
 
 	Number representing which key is pressed
@@ -194,6 +219,7 @@ See also: **Program.assertEqual, Program.restart, frameRate(fps), frameCount, lo
  	Called when a key is typed
 
 ## Math
+_______
 **random(low, high*)**
 
 	Generate a random number
@@ -253,6 +279,7 @@ See also: **Program.assertEqual, Program.restart, frameRate(fps), frameCount, lo
 See also: **mag, exp, map, norm, lerp, noise, noiseDetail, Random.nextGaussian**
 
 ## Trigonometry
+_______________
 **cos(degrees)**
 
 	Take the cosine of an angle
@@ -268,6 +295,7 @@ See also: **mag, exp, map, norm, lerp, noise, noiseDetail, Random.nextGaussian**
 See also: **acos, asin, atan, atan2, radians, degrees, angleMode**
 
 ## Date & Time
+______________
 **day() / month() / year()**
 
 	Current date
@@ -281,6 +309,7 @@ See also: **acos, asin, atan, atan2, radians, degrees, angleMode**
 	Milliseconds elapsed since program start
 
 ## Debugging
+____________
 **debug(arg1, arg2, ...)**
 
 	Print to your browser's developer console 
@@ -291,6 +320,7 @@ See also: **acos, asin, atan, atan2, radians, degrees, angleMode**
 
 
 ## JavaScript
+_____________
 **var drawWinston = function() { };**
 
 	Define a new function
@@ -314,10 +344,10 @@ See also: **acos, asin, atan, atan2, radians, degrees, angleMode**
 
 Our documentation does not cover the many ways to use JavaScript. Learn more at:
 
-* Mozilla Developer Network: JavaScript Guide
+* <u>Mozilla Developer Network: JavaScript Guide</u>
 
-* W3Schools JavaScript Tutorial
+* <u>W3Schools JavaScript Tutorial</u>
 
-* Codecademy JS Lessons
+* <u>Codecademy JS Lessons</u>
 
 This reference is based on ProcessingJS reference and is licensed under the CC BY-NC-SA 2.0 license.
