@@ -1,4 +1,4 @@
-# About vigilant-potato
+# About [INACTIVE] vigilant-potato
 An awesome game expected to come out in 2016
 
 When in this, please create new branches and use pull requests to add code.
